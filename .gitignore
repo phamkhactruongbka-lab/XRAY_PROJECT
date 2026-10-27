@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# PyInstaller / Build outputs
+build/
+dist/
+*.spec.bak
+
+# Large model weights (quản lý riêng hoặc dùng Git LFS nếu cần)
+# *.pt
+# *.onnx
+
+# Temporary & Log files
+logs/
+*.log
+*.tmp
+*.zip
+*.txt
+
+# IDE
+.vscode/
+.idea/

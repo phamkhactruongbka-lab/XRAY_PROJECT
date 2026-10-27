@@ -1,0 +1,67 @@
+{
+    "mic_void_threshold_percent": 44.5,
+    "mic_void_outside_threshold_percent": 12.0,
+    "mic_void_confidence": 0.25,
+    "mic_void_save_crop": true,
+    "mic_void_save_csv": true,
+    "mic_void_polarity": "bright",
+    "mic_void_min_pixels": 5,
+    "mic_void_use_for_decision": true,
+    "mic_void_roi": [
+        183,
+        138,
+        181,
+        78
+    ],
+    "mic_void_rois": [
+        {
+            "rect": [
+                183,
+                138,
+                181,
+                78
+            ],
+            "type": "air_bubbles_mic"
+        },
+        {
+            "rect": [
+                197,
+                148,
+                157,
+                240
+            ],
+            "type": "tin_ball_mic_hole"
+        }
+    ],
+    "mic_void_roi_min_overlap": 0.5,
+    "mic_void_golden_path": "D:/AI YOLO/Picture/images/20260917134958_2_2.jpg",
+    "mic_void_mark_roi": [
+        313,
+        347,
+        69,
+        71
+    ],
+    "mic_void_mark_align_enabled": true,
+    "mic_void_mark_min_score": 0.25,
+    "mic_void_mark_search_margin": 10,
+    "mic_void_validated": false,
+    "golden_path": "D:/AI YOLO/Picture/images/20260917134958_2_1.jpg",
+    "pos1_roi": [
+        245,
+        319,
+        116,
+        133
+    ],
+    "dark_threshold": 105,
+    "min_solder_ratio": 0.15,
+    "min_blobs": 0,
+    "mark_align_enabled": true,
+    "mark_roi": [
+        449,
+        315,
+        56,
+        90
+    ],
+    "mark_min_score": 0.75,
+    "mark_search_margin": 0
+}
